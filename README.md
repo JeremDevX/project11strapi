@@ -1,3 +1,17 @@
+# Supplément du projet 11 OpenClassrooms
+
+Repo de l'application Strapi ( Headless CMS ) en supplément du projet -> https://github.com/Jerem-Dev/OcProject11
+
+Il contient les données des comptes banquaires affichés pour le projet. 
+Les données sont construites via une collection qui contient :
+- Le nom du compte ( title -> string )
+- Le montant ( amount -> number )
+- La balance ( balance -> enumeration )
+
+*Pour des raisons de simplicité de mise en place les données ont été rendues publiquement accesibles en lecture seule uniquement.*
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
