@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "balance": {
+      "type": "enumeration",
+      "enum": [
+        "Available Balance",
+        "Current Balance"
+      ]
+    }
+  }
+}
